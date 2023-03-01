@@ -1,0 +1,118 @@
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 7px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.5em;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: rgb(201, 19, 28);
+    display: inline;
+    padding: 18ppx;
+    margin: 7px;
+    border: 3px solid rgb(201, 19, 28);
+    border-radius: 12px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul li :hover{
+    background-color: rgb(66, 62, 62);
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    clear: both;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+footer p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#active{
+    border: 2px solid rgb(255, 255, 255);
+}
+.heading{
+    text-align: center;
+}
+aside
+{
+    border: 3px solid grey;
+    float: right;
+    width: 18%;
+}
+#bigPic
+{
+    width: 100%;
+}
+#maincontent
+{
+    float: left;
+    width: 80%;
+    border: 3px solid grey;
+}
+.showimages
+{
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin: 0 10px 0 10px;
+}
+section.driver
+{
+    max-height: 350px;
+    overflow: auto;
+}
+.videoContent
+{
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+    text-align: center;
+}
+.required {
+    font-weight: bold;
+    color: red;
+}
+label
+{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input
+{
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 300px;
+}
+
+input[type="checkbox"] {width: 15px;}
+input[type="radio"] {width: 10px;}
+
+#button, #reset
+{
+    margin-top: 5em;
+    width: 8em;
+    background-color: rgb(118, 213, 236);
+    border: 2px solid black;
+}
+.map
+{
+    text-align: center;
+}
